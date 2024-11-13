@@ -13,6 +13,7 @@ alias lt='eza --icons=auto --tree' # list folder as tree
 alias tn='~/.config/tm-sess.sh'
 alias t='tmux a'
 alias lg='lazygit'
+alias c='clear'
 
 # Handy change dir shortcuts
 abbr .. 'cd ..'
