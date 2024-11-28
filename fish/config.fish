@@ -14,6 +14,7 @@ alias tn='~/.config/tm-sess.sh'
 alias t='tmux a'
 alias lg='lazygit'
 alias c='clear'
+alias xclipc='xclip -selection clipboard'
 
 # Handy change dir shortcuts
 abbr .. 'cd ..'
