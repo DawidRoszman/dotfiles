@@ -1,10 +1,10 @@
 { 
   "layer": "top",
   "height": 35,
-  "margin-top": 1,
-  "margin-left": 1,
+  "margin-top": 0,
+  "margin-left": 0,
   "margin-bottom": 0,
-  "margin-right": 1,
+  "margin-right": 0,
   "spacing": 0,
 
   "modules-left": [
@@ -133,7 +133,7 @@
     "format-bluetooth": " {volume}",
     "format-bluetooth-muted": " ",
     "tooltip": false,
-    "format-muted": "",
+    "format-muted": " ",
     "format-icons": {
       "default": ["󰝟", "", "󰕾" , ""]
     },
@@ -157,7 +157,8 @@
     "format": "  "
   },
   "custom/launcher": {
-    "format": " 󰣇"
+    "format": " 󰣇",
+    "on-click": "wofi --style ~/dotfiles/.config/wofi/menu.css"
   },
   "custom/separator": {
     "format": " "
