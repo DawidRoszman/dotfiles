@@ -5,11 +5,17 @@
   font-family: JetBrainsMono Nerd Font;
   font-weight: bold;
   font-size: 16px;
-  background-color: #1a1c2b; /* Reduced opacity background */ 
+  background-color: #1a1c2b;
 }
 
 .modules-right {
   /* background-color: #1a1c2b; */
+  border-radius: 5px 0px 0px 5px;
+}
+
+#custom-playerctl {
+  background-color: #1a1c2b;
+  color: #a6da95;
   border-radius: 5px 0px 0px 5px;
 }
 
@@ -238,6 +244,7 @@ window#waybar {
 }
 
 #clock {
+  color: #cad3f5;
   padding-left: 10px;
 }
 
