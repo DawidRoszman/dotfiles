@@ -14,6 +14,7 @@ alias t='tmux a'
 alias lg='lazygit'
 alias c='clear'
 alias xclipc='xclip -selection clipboard'
+alias cc='python ~/.config/git-commit-from-task/main.py'
 
 # Handy change dir shortcuts
 abbr .. 'cd ..'
