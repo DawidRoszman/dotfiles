@@ -10,7 +10,12 @@ if len(user_input) < 3:
 def convert_to_commit(task: list[str]) -> str:
     return " ".join(task).replace(" ", "-").replace("[", "").replace("]","").lower()
 
-result = user_input[1]+"/"+convert_to_commit(user_input[2:])
-pyperclip.copy(result)
-print(result)
+def convert_to_pr(task: list[str]) -> str:
+    return task[0].replace("[", "").replace("]", "")+": "+" ".join(task[1:])
+
+branch = user_input[1]+"/"+convert_to_commit(user_input[2:])
+pr_name = user_input[1].upper()+"-"+convert_to_pr(user_input[2:])
+pyperclip.copy(branch)
+print(branch)
+print(pr_name)
     
